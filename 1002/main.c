@@ -7,7 +7,3 @@
 
 #include <stdio.h>
 #include <math.h>
-
-Class Charater{
-    priavte
-}
