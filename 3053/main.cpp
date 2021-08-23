@@ -7,7 +7,17 @@
 
 #include <iostream>
 #include <cmath>
-int n;
-cin>>n;
+#include <iomanip>
+using namespace std;
 
-cout<<
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<fixed;
+    cout.precision(6);
+    cout<<M_PI*n*n<<endl;
+    cout<<fixed;
+    cout.precision(6);
+    cout<<(2*n*n)<<endl;
+}
